@@ -658,10 +658,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #activity .about-col {
-  background: rgb(169, 205, 226);
+  background: #fff;
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
-  margin-bottom: 14px;
+  margin-bottom: 20px;
 }
 
 #activity .about-col .img {
@@ -673,22 +673,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #activity .about-col .icon {
-  width: 24px;
-  height: 24px;
+  width: 64px;
+  height: 64px;
+  padding-top: 8px;
   text-align: center;
   position: absolute;
   background-color: #32bcdf;
   border-radius: 50%;
   text-align: center;
-  border: 1px solid #fff;
-  left: calc( 50% - 16px);
-  bottom: -16px;
+  border: 4px solid #fff;
+  left: calc( 50% - 32px);
+  bottom: -30px;
   transition: 0.3s;
 }
             
 
 #activity .about-col i {
-  font-size: 16px;
+  font-size: 36px;
   line-height: 1;
   color: #fff;
   transition: 0.3s;
@@ -705,8 +706,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #activity .about-col h2 {
   color: #000;
   text-align: center;
-  font-weight: 500;
-  font-size: 12px;
+  font-weight: 700;
+  font-size: 20px;
   padding: 0;
   margin: 40px 0 12px 0;
 }
@@ -720,12 +721,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #activity .about-col p {
-  font-size: 6px;
+  font-size: 14px;
   line-height: 24px;
   color: #333;
   margin-bottom: 0;
   padding: 0 20px 20px 20px;
 }
+ 
+
+
 
 /* Services Section
 --------------------------------*/
