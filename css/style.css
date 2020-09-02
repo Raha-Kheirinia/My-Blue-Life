@@ -125,6 +125,9 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
 }
+#header.header-scrolled, #header.header-inner-pages {
+  background: rgba(5, 41, 75, 0.85);
+}
 
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.9);
@@ -157,6 +160,36 @@ h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
+}
+
+/*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumbs {
+  padding: 15px 0;
+  background: #020101;
+  min-height: 40px;
+  margin-top: 92px;
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0 0 10px 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.breadcrumbs ol li + li {
+  padding-left: 10px;
+}
+
+.breadcrumbs ol li + li::before {
+  display: inline-block;
+  padding-right: 10px;
+  color: #06b7ec;
+  content: "/";
 }
 
 /*--------------------------------------------------------------
@@ -1029,22 +1062,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #32bcdf;
 }
 
-/* Team Section
+/* fly Section
 --------------------------------*/
 
-#team {
+#fly {
   background: #fff;
   padding: 60px 0;
 }
 
-#team .member {
+#fly .member {
   text-align: center;
   margin-bottom: 20px;
   background: #000;
   position: relative;
 }
 
-#team .member .member-info {
+#fly .member .member-info {
   opacity: 0;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1066,30 +1099,30 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.2s;
 }
 
-#team .member .member-info-content {
+#fly .member .member-info-content {
   margin-top: -50px;
   transition: margin 0.2s;
 }
 
-#team .member:hover .member-info {
+#fly .member:hover .member-info {
   background: rgba(0, 0, 0, 0.7);
   opacity: 1;
   transition: 0.4s;
 }
 
-#team .member:hover .member-info-content {
+#fly .member:hover .member-info-content {
   margin-top: 0;
   transition: margin 0.4s;
 }
 
-#team .member h4 {
+#fly .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
   color: #fff;
 }
 
-#team .member span {
+#fly .member span {
   font-style: italic;
   display: block;
   font-size: 13px;
@@ -1098,6 +1131,92 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 
+
+
+/* velo Section
+--------------------------------*/
+
+#velo {
+  background: url("../img/about-bg.jpg") center top no-repeat fixed;
+  background-size: cover;
+  padding: 60px 0 40px 0;
+  position: relative;
+}
+
+#velo::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.92);
+  z-index: 9;
+}
+
+#velo .container {
+  position: relative;
+  z-index: 10;
+}
+
+#velo .circuits {
+  text-align: center;
+  margin-bottom: 20px;
+  background: #000;
+  position: relative;
+}
+
+#velo .circuits .circuits-info {
+  opacity: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.2s;
+}
+
+#velo .circuits .circuits-info-content {
+  margin-top: -50px;
+  transition: margin 0.2s;
+}
+
+#velo .circuits:hover .circuits-info {
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 1;
+  transition: 0.4s;
+}
+
+#velo .circuits:hover .circuits-info-content {
+  margin-top: 0;
+  transition: margin 0.4s;
+}
+
+#velo .circuits h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+  color: rgb(4, 158, 230);
+}
+
+#velo .circuits span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+  color: #fff;
+}
 
 /*--------------------------------------------------------------
 # Footer
