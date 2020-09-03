@@ -762,6 +762,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
  
 
+.list-group-item{
+  font-size: 12px;
+  font-weight: 200;
+}
 
 
 /* Services Section
@@ -960,6 +964,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 100px;
   border-radius: 0 0 3px 3px;
 }
+
 
 #portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
@@ -1161,7 +1166,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #velo .circuits {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top: 20px;
   background: #000;
   position: relative;
 }
