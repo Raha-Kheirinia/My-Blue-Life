@@ -892,7 +892,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
 }
 
-#portfolio .portfolio-item figure {
+ figure {
   background: #000;
   overflow: hidden;
   height: 240px;
@@ -901,13 +901,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0;
 }
 
-#portfolio .portfolio-item figure:hover img {
+figure:hover img {
   opacity: 0.4;
   transition: 0.3s;
 }
 
-#portfolio .portfolio-item figure .link-preview,
-#portfolio .portfolio-item figure .link-details {
+ figure .link-preview,
+ figure .link-details {
   position: absolute;
   display: inline-block;
   opacity: 0;
@@ -920,39 +920,39 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.2s linear;
 }
 
-#portfolio .portfolio-item figure .link-preview i,
-#portfolio .portfolio-item figure .link-details i {
+ figure .link-preview i,
+ figure .link-details i {
   padding-top: 6px;
   font-size: 22px;
   color: #333;
 }
 
-#portfolio .portfolio-item figure .link-preview:hover,
-#portfolio .portfolio-item figure .link-details:hover {
+ figure .link-preview:hover,
+ figure .link-details:hover {
   background: #32bcdf;
 }
 
-#portfolio .portfolio-item figure .link-preview:hover i,
-#portfolio .portfolio-item figure .link-details:hover i {
+figure .link-preview:hover i,
+figure .link-details:hover i {
   color: #fff;
 }
 
-#portfolio .portfolio-item figure .link-preview {
+ figure .link-preview {
   left: calc(50% - 38px);
   top: calc(50% - 18px);
 }
 
-#portfolio .portfolio-item figure .link-details {
+ figure .link-details {
   right: calc(50% - 38px);
   top: calc(50% - 18px);
 }
 
-#portfolio .portfolio-item figure:hover .link-preview {
+ figure:hover .link-preview {
   opacity: 1;
   left: calc(50% - 44px);
 }
 
-#portfolio .portfolio-item figure:hover .link-details {
+ figure:hover .link-details {
   opacity: 1;
   right: calc(50% - 44px);
 }
@@ -1223,6 +1223,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #fff;
 }
+
+.detail-velo {
+  background: rgba(236, 240, 8, 0.171);
+  height: 50px;
+  position: relative;
+  border-radius: 4px 4px 1px 1px;
+  border-color: #000;
+  margin: 2%;
+}
+
+
 
 /*--------------------------------------------------------------
 # Footer
