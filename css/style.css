@@ -621,47 +621,52 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #f7f7f7;
 }
 
-/* Featured Services Section
+/* about Section
 --------------------------------*/
 
-#featured-services {
+#about {
   background: #000;
 }
 
-#featured-services .box {
+#about .box {
   padding: 30px 20px;
 }
 
-#featured-services .box-bg {
+#about .box-bg {
   background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);
 }
 
-#featured-services i {
+#about i {
   color: #18a7d2;
   font-size: 48px;
   display: inline-block;
   line-height: 1;
 }
 
-#featured-services h4 {
+#about h4 {
   font-weight: 400;
   margin: 15px 0;
   font-size: 18px;
 }
 
-#featured-services h4 a {
+#about h4 a {
   color: #fff;
 }
 
-#featured-services h4 a:hover {
+#about h4 a:hover {
   color: #32bcdf;
 }
 
-#featured-services p {
+#about p {
   font-size: 14px;
   line-height: 24px;
   color: #fff;
   margin-bottom: 0;
+}
+
+.about2{
+  padding:2%;
+  background-image: linear-gradient(0deg, #3a5c9c 0%, #071775 50%, #000000 100%);
 }
 
 /* About Us Section
